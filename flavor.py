@@ -162,10 +162,6 @@ appears to be stuck. However, your path to freedom might be hindered by
 other sometimes mundane, yet perilous, challenges.
 """
 
-prompt = "Press Enter to enter the Spooky House...\n"
-
-invalid_msg = "Dear adventurer, please type a valid option"
-
 win = """
 As you bravely decide to wait, your heart pounding with a mixture of
 apprehension and curiosity, the spooky noise that had unsettled you

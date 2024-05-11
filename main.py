@@ -20,7 +20,7 @@ def ask(ch):
 
     player_input = input(f"{active_chapter["texts"][0]}\n").lower()
     while player_input not in active_chapter["choices"]:
-        player_input = input(f"\n{fl.invalid_msg}\n\n").lower()
+        player_input = input("\nPlease type a valid option\n\n").lower()
     
     for choice in (chs for chs in active_chapter["choices"] if chs == player_input):
         return active_chapter["choices"].index(choice)
@@ -41,5 +41,5 @@ def game():
 
 
 print(f"{fl.logo}\n{fl.welcome}")
-input(fl.prompt)
+input("Press Enter to continue...")
 game()
